@@ -5,6 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
+// to exactly match the output of fakestore api because category was different class itself but here it is string
 public class FakeStoreProductDto {
     private Long id;
     private String title;
